@@ -9,7 +9,7 @@ import Login from '../Components/Login'
 import Modal from '../Components/Modal'
 import { useRecoilState } from 'recoil'
 import { modalState } from '../atoms/modalAtom'
-import Widgets from '../components/Widgets'
+import Widgets from '../Components/Widgets'
 
 export default function Home({trendingResults, followResults, providers}) {
   const {data: session} = useSession() 
