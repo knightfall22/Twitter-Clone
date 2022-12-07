@@ -92,7 +92,7 @@ const PostPage = ({trendingResults,followResults,providers}) => {
   )
 }
 
-export default postPage
+export default PostPage
 
 export async function getServerSideProps(context) {
 
