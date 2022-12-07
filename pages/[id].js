@@ -22,7 +22,7 @@ import {
 import Login from "../Components/Login";
 
 
-const postPage = ({trendingResults,followResults,providers}) => {
+const PostPage = ({trendingResults,followResults,providers}) => {
     const { data: session } = useSession();
     const [isOpen, setIsOpen] = useRecoilState(modalState);
     const [post, setPost] = useState();
