@@ -10,13 +10,13 @@ import {
   import { useEffect, useState } from "react";
   import { useRecoilState } from "recoil";
   import { modalState } from "../atoms/modalAtom";
-  import Modal from "../components/Modal";
-  import Sidebar from "../components/Sidebar";
-  import Widgets from "../components/Widgets";
-  import Post from "../components/Post";
+  import Modal from "../Components/Modal";
+  import Sidebar from "../Components/Sidebar";
+  import Widgets from "../Components/Widgets";
+  import Post from "../Components/Post";
   import { db } from "../firebase";
   import { ArrowLeftIcon } from "@heroicons/react/solid";
-  import Comment from "../components/Comment";
+  import Comment from "../Components/Comment";
   import Head from "next/head"
   import styles from '../styles/Home.module.css'
 import Login from "../Components/Login";
